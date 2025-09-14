@@ -183,5 +183,5 @@ if __name__ == "__main__":
     print("k_str = {}".format(k_str))
     print("c_str = {}".format(c_str))
 
-    p_str_decr = decrypt_str(c_str, p_str)
+    p_str_decr = decrypt_str(c_str, k_str)
     print("p_str_decr = {}".format(p_str_decr))
